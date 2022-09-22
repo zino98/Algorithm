@@ -1,5 +1,6 @@
 { pkgs }: {
   deps = [
+    pkgs.idutils
     pkgs.python38Full
   ];
   env = {
